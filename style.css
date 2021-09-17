@@ -1,5 +1,5 @@
 body{
-    background: #F5F5F5;
+    background: #FF9F26;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body{
 
 nav{
     padding: 2%;
-    background: #FF715B;
+    background: #FF9F26;
 }
 
 ul{
@@ -22,7 +22,7 @@ li{
     border: 1px;
     color: black;
     font-style: normal;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Permanent Marker', cursive;
     font-size: 20px;
 }
 
@@ -37,7 +37,7 @@ a:hover{
 }
 
 a:visited {
-    color: #523F38;
+    color: #0BFCDD;
 }
 
 
@@ -46,9 +46,9 @@ h1{
     color: #F5F5F5;
     font-style: normal;
     font-weight: lighter;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 70px;
-    background: #523F38;
+    background: #0BFCDD;
     border: 1px solid transparent;
     padding: 3%;
 
@@ -67,5 +67,5 @@ h2{
 }
 p{
     color: rgb(32, 32, 32);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
