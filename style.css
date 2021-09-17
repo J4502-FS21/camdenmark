@@ -1,5 +1,5 @@
 body{
-    background: #26fff1;
+    background: #F5F5F5;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ li{
     border: 1px;
     color: black;
     font-style: normal;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Merriweather', serif;
     font-size: 20px;
 }
 
