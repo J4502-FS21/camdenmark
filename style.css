@@ -1,5 +1,5 @@
 body{
-    background: #FF9F26;
+    background: #26fff1;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body{
 
 nav{
     padding: 2%;
-    background: #FF9F26;
+    background: #26fff1;
 }
 
 ul{
@@ -33,11 +33,11 @@ a{
 }
 
 a:hover{
-    background: #1EA896;
+    background: #EA0BFC;
 }
 
 a:visited {
-    color: #0BFCDD;
+    color: #FFB159 ;
 }
 
 
@@ -48,7 +48,7 @@ h1{
     font-weight: lighter;
     font-family: 'Rubik', sans-serif;
     font-size: 70px;
-    background: #0BFCDD;
+    background: #FFB159 ;
     border: 1px solid transparent;
     padding: 3%;
 
@@ -63,7 +63,7 @@ h2{
     text-align: center;
     text-transform: uppercase;
     padding: 2%;
-    background: #1EA896;
+    background: #EA0BFC;
 }
 p{
     color: rgb(32, 32, 32);
