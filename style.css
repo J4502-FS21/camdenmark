@@ -36,21 +36,21 @@
 
   .Menu-1 {
     color: #F5F5F5;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     text-align: center;
     font-size: 20px;
     grid-area: Menu-1; }
 
   .Menu-2 {
     color: #F5F5F5;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     text-align: center;
     font-size: 20px;
     grid-area: Menu-2; }
 
   .Menu-3 {
     color: #F8F0E3;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     text-align: center;
     font-size: 20px;
     grid-area: Menu-3; }
@@ -76,7 +76,7 @@ h1{
 h2{
     color: #000000;
     font-style: normal;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Permanent Marker', sans-serif;
     text-align: center;
 
 }
@@ -84,7 +84,7 @@ h2{
 h3{
     color: #000000;
     font-style: normal;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Permanent Marker', serif;
     text-align: left;
     padding: 2%;
 }
@@ -92,14 +92,14 @@ h3{
 h4{
     color: #000000;
     font-style: normal;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Permanent Marker', serif;
     text-align: left;
     padding: 2%;
 }
 
 p{
     color: black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     margin: 4%;
 }
 
@@ -140,7 +140,7 @@ p{
     border: 1px;
     color: black;
     font-style: normal;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Merriweather', serif;
     font-size: 20px;
     text-align: center;
 }
