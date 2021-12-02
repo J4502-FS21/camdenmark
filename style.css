@@ -107,6 +107,8 @@ a{
 
 }
 
+.Text-blog { grid-area: Text-blog; }
+
 a:hover{
     background: #EA0BFC;
 }
