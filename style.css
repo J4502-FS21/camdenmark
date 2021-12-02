@@ -36,26 +36,29 @@
 
   .Menu-1 {
     color: #F5F5F5;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 20px;
     grid-area: Menu-1; }
 
   .Menu-2 {
     color: #F5F5F5;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 20px;
     grid-area: Menu-2; }
 
   .Menu-3 {
     color: #F5F5F5;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 20px;
     grid-area: Menu-3; }
 
   .Body { grid-area: 3 / 1 / 5 / 4; }
+
+  body{
+    background: #e0e0e0;
 }
 
   .Content { grid-area: 3 / 2 / 5 / 3;
@@ -63,42 +66,118 @@
 }
 
 h1{
-  color: #F5F5F5;
-  font-style: normal;
-  font-weight: lighter;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 70px;
-  background: #FFB159 ;
-  border: 1px solid transparent;
-  padding: 3%;
-}
-
-body{
-    background: #F5F5F5;
+    color: #323031;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
     text-align: center;
-    margin: 0;
-    padding: 0;
 
 }
 
-nav{
+h2{
+    color: #323031;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+
+}
+
+h3{
+    color: #323031;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
     padding: 2%;
-    background: #020755;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+h4{
+    color: #4a4a4a;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    padding: 2%;
 }
 
-li{
+p{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 4%;
+}
+
+  .Footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "Footer-1 Footer-2 Footer-3"
+      ". . .";
+    grid-area: 5 / 2 / 6 / 3;
+    background: #323031;
+  }
+
+  .Footer-1 {
+    color: #F5F5F5;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    grid-area: Footer-1; }
+
+  .Footer-2 {
+    color: #F5F5F5;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    grid-area: Footer-2; }
+
+  .Footer-3 {
+    color: #F5F5F5;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    grid-area: Footer-3; }
+
+  .Entry-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.2fr 1.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Headline Headline Headline"
+      "Image Image Image"
+      "Text-blog Text-blog Text-blog";
+    grid-area: 3 / 2 / 4 / 3;
+  }
+
+  .Headline { grid-area: Headline; }
+
+  .Image { grid-area: Image;
+      }
+
+  img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  .Text-blog { grid-area: Text-blog; }
+
+  .Entry-2 { grid-area: 4 / 2 / 5 / 3; }
+
+  li{
     margin: 2px;
     border: 1px;
     color: black;
     font-style: normal;
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 20px;
+    text-align: center;
 }
 
 a{
@@ -107,40 +186,16 @@ a{
 
 }
 
-.Text-blog { grid-area: Text-blog; }
-
-.Image { grid-area: Image;
-     }
-
- img {
-   max-width: 80%;
-   height: auto;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
- }
-
 a:hover{
-    background: #EA0BFC;
-}
-
-a:visited {
-    color: #F5F5F5 ;
+    background: #d9d0ab;
 }
 
 
-h2{
-    color: #F5F5F5;
-    font-style: normal;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 2%;
-    background: #EA0BFC;
-}
-p{
-    color: rgb(32, 32, 32);
-    font-family: 'Work Sans', sans-serif;
+iframe{
+    max-width: 90%;
+    height: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
